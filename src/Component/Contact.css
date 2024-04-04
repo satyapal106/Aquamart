@@ -1,0 +1,101 @@
+:root {
+  --fontFamily: "Krub", sans-serif;
+  --fontFamily2: "Roboto", sans-serif;
+  --mainColor: #e70d3d;
+  --backgroundColor: #ebebeb;
+  --transparentColor: #fcebe5;
+  --whiteColor: #ffffff;
+  --blackColor: #111111;
+  --paragraphColor: #777777;
+  --fontSize: 16px;
+  --card-title-fontSize: 24px;
+  --transition: 0.5s;
+}
+
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact-page-form {
+  padding: 25px 25px 28px 25px;
+  -webkit-box-shadow: 0px 0px 10px -2px #e2e2e2;
+  box-shadow: 0px 0px 10px -2px #e2e2e2;
+}
+.contact-page-form h4 {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: var(--card-title-fontSize);
+}
+.contact-page-form form .form-control {
+  border: 0px;
+  margin-top: 15px;
+  padding: 15px 15px;
+  font-size: 14px;
+  box-shadow: 0 1px 3px 0 #b0b0b0;
+  background-color: #f0f6fd;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pt-30 {
+  padding-top: 0px;
+}
+.contact-text-area h3 {
+  margin-bottom: 10px;
+  font-size: var(--card-title-fontSize);
+  font-weight: 700;
+}
+.contact-text-area h5 {
+  font-size: var(--card-title-fontSize);
+  margin-bottom: 10px;
+}
+.contact-text-area ul {
+  margin: 15px 0px 20px 0px;
+  padding: 0px;
+  list-style: none;
+}
+.contact-text-area ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 10px 0px;
+  color: var(--paragraphColor);
+  font-size: var(--fontSize);
+  font-family: var(--fontFamily2);
+}
+.contact-text-area ul li span:first-child {
+  font-weight: 600;
+  color: var(--blackColor);
+  width: 150px;
+}
+.contact-text-area a {
+  font-weight: 600;
+  font-size: var(--fontSize);
+  color: #134070;
+}
+.contact-page-form form button:hover {
+  color: var(--whiteColor);
+  background-color: var(--blackColor);
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+.contact-page-form form button {
+  border: 0px;
+  width: 100%;
+  margin-top: 20px;
+  display: block;
+  padding: 10px 15px;
+  color: var(--whiteColor);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: #133f6d;
+  font-size: 15px;
+  font-weight: 600;
+}

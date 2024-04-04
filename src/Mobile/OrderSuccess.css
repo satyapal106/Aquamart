@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.order-success-page .banner-section .banner-wrap {
+    text-align: center;
+    margin-top: calc(30px + (50 - 30) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.order-success-page .banner-section .banner-wrap img {
+    width: 80%
+}
+
+.order-success-page .banner-section .content-wrap {
+    text-align: center;
+    margin-top: 17px;
+
+}
+
+.order-success-page .banner-section .content-wrap h1 {
+    text-transform: unset;
+    font-weight: 700;
+    font-family: "Quicksand","sans-serif"
+}
+
+.order-success-page .banner-section .content-wrap p {
+    margin-bottom: 0;
+    font-weight: normal
+}
+
+.order-success-page .order-id-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-top: 1px solid #f1f1f1;
+    gap: calc(20px + (50 - 20) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.order-success-page .order-id-section .media>span {
+    background-color: #0baf9a;
+    padding: calc(5px + (8 - 5) * ((100vw - 320px) / (1920 - 320)));
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 4px
+}
+
+.order-success-page .order-id-section .media>span i {
+    font-size: calc(22px + (28 - 22) * ((100vw - 320px) / (1920 - 320)));
+    color: #fff
+}
+
+[class="dark"] .order-success-page .order-id-section .media>span i {
+    color: #f0f0f0
+}
+
+.order-success-page .order-id-section .media .media-body h2 {
+    font-weight: 700;
+    margin-bottom: calc(-5px + (-0 + 5) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.order-success-page .order-id-section .media .media-body span {
+    font-size: calc(12px + (14 - 12) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.order-success-page .order-detail {
+    background-color: #fafafa;
+    padding: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+    border-radius: 18px
+}
+
+.order-success-page .order-detail ul li {
+    padding: 2px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.order-success-page .order-detail ul li span {
+    font-size: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
+    border: none;
+    color: #777;
+    font-family: 'Mulish';
+}
+
+.order-success-page .order-detail ul li:last-child {
+    padding: 10px 0;
+    font-weight: 600;
+    margin-top: 8px;
+    border-top: 1px solid #f1f1f1;
+    margin-bottom: -5px
+}
+
+.order-success-page .order-detail ul li:last-child span {
+    color: #222
+}
+
+.order-success-page .order-detail h3 {
+    margin-bottom: 6px;
+    font-weight: 700
+}
+
+.order-success-page .order-detail ul li:last-of-type {
+    padding-bottom: 0
+}
+
+.order-success-page .order-detail ul li:last-of-type span:last-of-type {
+    font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1920 - 320)))
+}

@@ -1,0 +1,151 @@
+.headers {
+  padding: calc(10px + (15 - 10) * ((100vw - 320px) / (1920 - 320))) 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  background-color: white;
+}
+
+.headers .logo-wraps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: calc(7px + (12 - 7) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.headers .logo-wraps i {
+  font-size: 24px;
+  color: #222;
+}
+
+.headers .logo-wraps a {
+  display: contents;
+  font-weight: 600;
+}
+
+.headers .logo-wraps a i {
+  font-weight: 200;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+[dir="rtl"] .headers .logo-wraps a i {
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.headers .logo-wraps .logos {
+  width: calc(100px + (130 - 100) * ((100vw - 320px) / (1920 - 320)));
+  height: auto;
+}
+
+[class="dark"] .headers .logo-wraps .logos {
+  display: none;
+}
+
+.headers .logo-wraps .logo-w {
+  display: none;
+}
+
+[class="dark"] .headers .logo-wraps .logo-w {
+  display: block;
+}
+
+.headers .logo-wraps .fk-logo {
+  width: calc(24px + (34 - 24) * ((100vw - 320px) / (1920 - 320)));
+  height: auto;
+}
+
+[class="dark"] .headers .logo-wraps .fk-logo {
+  display: none;
+}
+
+.headers .logo-wraps .fk-logo-w {
+  display: none;
+}
+
+[class="dark"] .headers .logo-wraps .fk-logo-w {
+  display: block;
+}
+
+.headers .avatar-wraps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: calc(6px + (10 - 6) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.headers .avatar-wraps > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: calc(4px + (8 - 4) * ((100vw - 320px) / (1920 - 320)));
+  font-weight: 700;
+}
+
+.headers .avatar-wraps i {
+  font-size: 22px;
+}
+
+.headers .avatar-wraps a svg {
+  width: 20px;
+}
+
+.headers .avatar-wraps .lord-icon {
+  margin-bottom: -3px;
+}
+
+.headers .avatar-wraps .avatars {
+  width: calc(35px + (45 - 35) * ((100vw - 320px) / (1920 - 320)));
+  height: calc(35px + (45 - 35) * ((100vw - 320px) / (1920 - 320)));
+  border-radius: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.overlay-sidebar {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 5;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.overlay-sidebar.show {
+  display: block;
+}
+
+.addressFont {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  width: 192px;
+
+  padding:0px !important;
+  /* border-bottom: 1px dashed #000000d1; */
+  border-width: thin;
+}

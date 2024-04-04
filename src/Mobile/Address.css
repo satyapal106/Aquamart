@@ -1,0 +1,553 @@
+.btn-outline-grey {
+  padding: 10px calc(28px + (34 - 28) * ((100vw - 320px) / (1920 - 320)));
+  background-color: #fff;
+  color: #777;
+  font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1920 - 320)));
+  border-radius: 5px;
+  line-height: 21px;
+  font-weight: 600;
+  border: 1px solid #cacaca;
+  width: 100%;
+  display: inline-block;
+}
+
+.btn-outline-grey:hover {
+  color: #777;
+}
+
+.address2-page .address-wrap .address-box {
+  cursor: pointer;
+  padding: 14px;
+  background-color: #fafafa;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  margin-top: calc(17px + (22 - 17) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.address2-page .address-wrap .address-box .conten-box .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 8px
+}
+
+.address2-page .address-wrap .address-box .conten-box .heading h2 {
+  font-weight: 700
+}
+
+.address2-page .address-wrap .address-box .conten-box .heading i {
+  font-size: calc(22px + (24 - 22) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.address2-page .address-wrap .address-box .conten-box h3 {
+  margin-top: 14px;
+  line-height: 18px;
+  margin-bottom: 4px;
+  font-weight: 500
+}
+
+.address2-page .address-wrap .address-box .conten-box p {
+  margin-bottom: 0;
+  line-height: 18px;
+  font-weight: normal
+}
+
+.address2-page .address-wrap .address-box img {
+  width: calc(80px + (100 - 80) * ((100vw - 320px) / (1920 - 320)));
+  height: calc(80px + (100 - 80) * ((100vw - 320px) / (1920 - 320)));
+  border-radius: 15px;
+  margin-left: 10px
+}
+
+[dir="rtl"] .address2-page .address-wrap .address-box img {
+  margin-right: 10px;
+  margin-left: unset
+}
+
+.address2-page .address-wrap .address-box.active {
+  border-color: #1466c4;
+}
+
+.font-md {
+  font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1920 - 320))) !important;
+}
+
+.badges-round {
+  padding: 2px 10px;
+  border-radius: 100px
+}
+
+.badges {
+  padding: 2px 10px;
+  border-radius: 3px
+}
+
+.bg-theme-theme {
+  background-color: #1466c4;
+  color: #fff;
+}
+
+.offcanvas {
+  max-width: 600px;
+  border-radius: 15px 15px 0px 0px;
+  margin: 0 auto;
+  background-color: #fff
+}
+
+.offcanvas .offcanvas-header {
+  padding: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.offcanvas .offcanvas-body {
+  padding: 0 calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.offcanvas .offcanvas-footer {
+  padding: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.custom-form input,
+.custom-form textarea,
+.custom-form select,
+.custom-form .form-control {
+  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+  padding: calc(8px + (10 - 8) * ((100vw - 320px) / (1920 - 320))) 0;
+  padding-right: calc(44px + (47 - 44) * ((100vw - 320px) / (1920 - 320)));
+  padding-left: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)));
+  border-radius: 4px;
+  border: 1px solid #ceefeb;
+  background-color: #fafafa;
+  color: #222
+}
+
+.custom-form input::-webkit-input-placeholder,
+.custom-form textarea::-webkit-input-placeholder,
+.custom-form select::-webkit-input-placeholder,
+.custom-form .form-control::-webkit-input-placeholder {
+  color: #777
+}
+
+.custom-form input::-moz-placeholder,
+.custom-form textarea::-moz-placeholder,
+.custom-form select::-moz-placeholder,
+.custom-form .form-control::-moz-placeholder {
+  color: #777
+}
+
+.custom-form input:-ms-input-placeholder,
+.custom-form textarea:-ms-input-placeholder,
+.custom-form select:-ms-input-placeholder,
+.custom-form .form-control:-ms-input-placeholder {
+  color: #777
+}
+
+.custom-form input::-ms-input-placeholder,
+.custom-form textarea::-ms-input-placeholder,
+.custom-form select::-ms-input-placeholder,
+.custom-form .form-control::-ms-input-placeholder {
+  color: #777
+}
+
+.custom-form input::placeholder,
+.custom-form textarea::placeholder,
+.custom-form select::placeholder,
+.custom-form .form-control::placeholder {
+  color: #777
+}
+
+.custom-form input:focus,
+.custom-form textarea:focus,
+.custom-form select:focus,
+.custom-form .form-control:focus {
+  border-color: #0baf9a;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #edf8f8
+}
+
+.custom-form .input-box {
+  margin-bottom: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+  position: relative;
+  font-family: 'Mulish';
+}
+
+.custom-form .input-box input,
+.custom-form .input-box textarea {
+  line-height: 28px;
+  padding: calc(8px + (10 - 8) * ((100vw - 320px) / (1920 - 320)));
+  padding-right: calc(44px + (47 - 44) * ((100vw - 320px) / (1920 - 320)));
+  padding-left: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)))
+}
+
+[dir="rtl"] .custom-form .input-box input,
+[dir="rtl"] .custom-form .input-box textarea {
+  padding-left: calc(44px + (47 - 44) * ((100vw - 320px) / (1920 - 320)));
+  padding-right: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.custom-form .input-box .showHidePassword {
+  cursor: pointer
+}
+
+.custom-form .input-box input[type="date" i]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  left: 9px;
+  z-index: 3;
+  margin-left: 0;
+  opacity: 0
+}
+
+.custom-form .input-box>svg {
+  width: calc(20px + (24 - 20) * ((100vw - 320px) / (1920 - 320)));
+  height: calc(20px + (24 - 20) * ((100vw - 320px) / (1920 - 320)));
+  stroke-width: 1.5
+}
+
+.custom-form .input-box>svg,
+.custom-form .input-box i {
+  font-size: calc(22px + (28 - 22) * ((100vw - 320px) / (1920 - 320)));
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
+
+[dir="rtl"] .custom-form .input-box>svg,
+[dir="rtl"] .custom-form .input-box i {
+  right: unset;
+  left: 16px
+}
+
+.custom-form .input-box i {
+  right: 15px;
+  line-height: 22px
+}
+
+[dir="rtl"] .custom-form .input-box i {
+  right: unset;
+  left: 15px
+}
+
+.custom-form .input-box.text-box>svg,
+.custom-form .input-box.text-box img {
+  top: calc(23px + (26 - 23) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.custom-form .input-box span {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 4px;
+  background-color: #effefc
+}
+
+.custom-form .input-box span svg {
+  width: 24px;
+  height: 24px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s
+}
+
+[dir="rtl"] .custom-form .input-box span {
+  right: unset;
+  left: 14px
+}
+
+.custom-form .input-box select:focus~span svg {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg)
+}
+
+.custom-form .input-box .type-password {
+  background-color: #edf8f8;
+  padding: 10px;
+  border: 1px solid #0baf9a;
+  border-radius: 4px
+}
+
+.custom-form .input-box .type-password label {
+  font-weight: 600
+}
+
+.custom-form .input-box .type-password input {
+  border: none;
+  background-color: transparent
+}
+
+.custom-form .type-password {
+  background-color: #edf8f8;
+  padding: 10px;
+  border: 1px solid #0baf9a;
+  border-radius: 4px
+}
+
+.custom-form .type-password label {
+  font-weight: 600
+}
+
+.custom-form .type-password .input-box {
+  margin-left: -10px;
+  margin-right: -10px
+}
+
+.custom-form .type-password .input-box input {
+  border: none;
+  background-color: transparent
+}
+
+.custom-form .type-password .input-box input::-webkit-input-placeholder {
+  color: #777
+}
+
+.custom-form .type-password .input-box input::-moz-placeholder {
+  color: #777
+}
+
+.custom-form .type-password .input-box input:-ms-input-placeholder {
+  color: #777
+}
+
+.custom-form .type-password .input-box input::-ms-input-placeholder {
+  color: #777
+}
+
+.custom-form .type-password .input-box input::placeholder {
+  color: #777
+}
+
+.input-box select {
+  padding: calc(9px + (12 - 9) * ((100vw - 320px) / (1920 - 320))) 15px;
+  background-color: #fafafa;
+  border: 1px solid #ceefeb;
+  color: #222;
+  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.input-box select:focus {
+  border: 1px solid #ceefeb !important;
+  background-color: #fafafa !important
+}
+
+.input-box .select-box {
+  position: relative
+}
+
+.input-box .select-box span {
+  position: absolute;
+  right: 9px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 4px
+}
+
+.input-box .select-box span svg {
+  width: 24px;
+  height: 24px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s
+}
+
+[dir="rtl"] .input-box .select-box span svg {
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg)
+}
+
+[dir="rtl"] .input-box .select-box span {
+  right: unset;
+  left: 9px
+}
+
+.input-box select:focus~span svg {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg)
+}
+
+[dir="rtl"] .input-box select:focus~span svg {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg)
+}
+
+.input-box input[type="radio"] {
+  position: relative;
+  margin: 2px 1rem 0 3px;
+  cursor: pointer
+}
+
+[dir="rtl"] .input-box input[type="radio"] {
+  margin: 2px 1px 0 1rem
+}
+
+.input-box input[type="radio"]:before {
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+  transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+  transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+  transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75), -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+  -webkit-transform: scale(0, 0) translate(-50%, -50%);
+  transform: scale(0, 0) translate(-50%, -50%);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 0.55rem;
+  height: 0.55rem;
+  background: #0baf9a;
+  border-radius: 50%
+}
+
+[dir="rtl"] .input-box input[type="radio"]:before {
+  left: unset;
+  right: -2px
+}
+
+.input-box input[type="radio"]:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 1.05rem;
+  height: 1.05rem;
+  background: #fff;
+  border: 1px solid #0baf9a;
+  border-radius: 50%
+}
+
+[dir="rtl"] .input-box input[type="radio"]:after {
+  left: unset;
+  right: -10px
+}
+
+.input-box input[type="radio"]:checked:before {
+  -webkit-transform: scale(1, 1) translate(-50%, -50%);
+  transform: scale(1, 1) translate(-50%, -50%)
+}
+
+.input-box input[type="radio"]:checked:after {
+  border: 1px solid #0baf9a
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+  background-color: #edf8f8 !important;
+  color: #222 !important;
+  -webkit-box-shadow: 0 0 0 1000px #edf8f8 inset !important;
+  -webkit-text-fill-color: #222 !important
+}
+
+.offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: 1050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 100%;
+  visibility: hidden;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out
+}
+.offcanvas {
+  width:100%;
+  border-radius: 15px 15px 0px 0px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+
+.modal-backdrop.fade {
+  opacity: 0
+}
+
+.modal-backdrop.show {
+  opacity: .5
+}
+
+.add-address .offcanvas-footer .btn-box,.add-card .offcanvas-footer .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: calc(15px + (30 - 15) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.add-address .offcanvas-footer .btn-box button,.add-card .offcanvas-footer .btn-box button {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  padding: 10px
+}
+
+[dir="rtl"] .add-address .offcanvas-footer .btn-box button:first-of-type,[dir="rtl"] .add-card .offcanvas-footer .btn-box button:first-of-type {
+  margin-right: unset;
+  margin-left: 15px
+}
+
+.add-card .offcanvas-body .custom-form .expriydate {
+  padding-right: calc(40px + (44 - 40) * ((100vw - 320px) / (1920 - 320)));
+  padding-left: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)))
+}
+
+[dir="rtl"] .add-card .offcanvas-body .custom-form .expriydate {
+  padding-left: calc(40px + (44 - 40) * ((100vw - 320px) / (1920 - 320)));
+  padding-right: calc(15px + (18 - 15) * ((100vw - 320px) / (1920 - 320)))
+}
+
+.btn-outline {
+  padding: calc(10px + (14 - 10) * ((100vw - 320px) / (1920 - 320))) calc(28px + (34 - 28) * ((100vw - 320px) / (1920 - 320)));
+  background-color: #fff;
+  color: #0baf9a;
+  font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1920 - 320)));
+  border-radius: 5px;
+  font-weight: 600;
+  border: 1px solid #0baf9a;
+  display: inline-block;
+  line-height: 21px
+}
+
+.btn-outline:hover {
+  color: #0baf9a
+}

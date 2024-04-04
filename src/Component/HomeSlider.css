@@ -1,0 +1,5 @@
+.slick-list, .slick-slider {
+    display: block;
+    position: relative;
+    top: -10px;
+}
